@@ -7,11 +7,12 @@
 
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 .container {
@@ -106,6 +107,7 @@ font {
     padding: 2%;
     width: 85%;
     text-align: center;
+    
 }
 .boxxx {
     border-radius: 20px;
@@ -126,14 +128,26 @@ font {
 .wrapper::-webkit-scrollbar {
     width: 0;
 }
+.boxxxx{
+    width: 50%;
+    height: 40px;
+    background: rgb(140,250,16);
+    background: linear-gradient(90deg, rgba(140,250,16,1) 0%, rgba(240,255,115,1) 100%);
+}
 
 .wrapper .item {
-    min-width: 130px;
+    min-width: 160px;
     height: 200px;
     line-height: 110px;
     text-align: center;
     background-color: #ddd;
     margin-right: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.item:hover{
+    transform: translateY(-5px);
 }
 .color{
     color: white;
@@ -141,10 +155,15 @@ font {
 }
 .color2{
     color: black;
-    background: rgb(140,250,16);
-    background: linear-gradient(90deg, rgba(140,250,16,1) 0%, rgba(240,255,115,1) 100%);
+    text-align: center;
 }
 
 #carouselExampleAutoplaying{
     padding: 20px;
+}
+i{
+  margin-right: 5px;
+}
+.arriba{
+    margin-top: 14.5px;
 }
