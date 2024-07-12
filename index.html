@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="multimedia/video4.mp4">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/019d30058a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/style.css">
@@ -38,12 +39,21 @@
                 min-width: 120px; /* Ajustar el ancho mínimo de los items en dispositivos móviles */
                 margin-right: 20px; /* Ajustar el margen derecho de los items en dispositivos móviles */
             }
+            .wrapper2 .item {
+                min-width: 120px; /* Ajustar el ancho mínimo de los items en dispositivos móviles */
+                margin-right: 20px; /* Ajustar el margen derecho de los items en dispositivos móviles */
+            }
             #container3{
                 display: flex;
                 flex-direction: column;
             }
             #carouselExampleAutoplaying{
-            padding: -20px;
+                padding: -20px;
+            }
+            .icono{
+                width: 40%;
+                border-radius: 70px;
+                margin-bottom: 10px;
             }
         }
     </style>
@@ -95,7 +105,7 @@
             <div class="container2 mt-3">
                 <div class="boxxx">
                 <h2 class="color">Productos destacados</h2>
-                <div class="wrapper">
+                <div class="wrapper2">
                     <img src="multimedia/futbol/futbol3.jpg" class="item" alt="">
                     <img src="multimedia/futbol/futbol2.jpg" class="item" alt="">
                     <img src="multimedia/futbol/futbol1.jpg" class="item" alt="">
@@ -190,7 +200,9 @@
             <footer class="pie mt-3">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container" id="container3">
-                        <a class="navbar-brand logo"><h1 class="title-font"><font>Todo</font>pelota</h1></a>
+                        <br>
+                        <br>
+                        <video src="multimedia/video4.mp4" id="video4" class="icono" loop autoplay muted></video>
                         <div id="contacto">
                             <h2>Nuestras Redes</h2>
                             <ul>
